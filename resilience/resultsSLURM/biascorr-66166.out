@@ -1,0 +1,33 @@
+start of job
+2024-02-28 11:33:48
+eliminating results slurm older than 10 days
+/mnt/beegfs/lcesarini/2022_resilience/resilience
+no change     /apps/miniconda3/condabin/conda
+no change     /apps/miniconda3/bin/conda
+no change     /apps/miniconda3/bin/conda-env
+no change     /apps/miniconda3/bin/activate
+no change     /apps/miniconda3/bin/deactivate
+no change     /apps/miniconda3/etc/profile.d/conda.sh
+no change     /apps/miniconda3/etc/fish/conf.d/conda.fish
+no change     /apps/miniconda3/shell/condabin/Conda.psm1
+no change     /apps/miniconda3/shell/condabin/conda-hook.ps1
+no change     /apps/miniconda3/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /apps/miniconda3/etc/profile.d/conda.csh
+no change     /home/luigi.cesarini/.bashrc
+No action taken.
+Running:KIT 28/02/2024 11:34:16
+['SON', 'DJF', 'MAM', 'JJA']
+Running:ETH 28/02/2024 11:34:16
+['SON', 'DJF', 'MAM', 'JJA']
+Running:ICTP 28/02/2024 11:34:17
+['SON', 'DJF', 'MAM', 'JJA']
+Running:KNMI 28/02/2024 11:34:17
+['SON', 'DJF', 'MAM', 'JJA']
+Running:CNRM 28/02/2024 11:34:17
+['SON', 'DJF', 'MAM', 'JJA']
+Running:HCLIMcom 28/02/2024 11:34:17
+['SON', 'DJF', 'MAM', 'JJA']
+Running:CMCC 28/02/2024 11:34:20
+['SON', 'DJF', 'MAM', 'JJA']
+Wed Feb 28 19:00:32 CET 2024
+end of job

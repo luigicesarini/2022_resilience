@@ -1,0 +1,14 @@
+#
+# gridID 0
+#
+gridtype  = curvilinear
+gridsize  = 285869
+xname     = lon
+xlongname = longitude
+xunits    = degrees_east
+yname     = lat
+ylongname = latitude
+yunits    = degrees_north
+xsize     = 587
+ysize     = 487
+xvals     =

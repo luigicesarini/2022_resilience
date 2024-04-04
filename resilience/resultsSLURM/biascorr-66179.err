@@ -1,0 +1,11 @@
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 66179.2 ON cn04 CANCELLED AT 2024-02-29T10:00:33 ***
+slurmstepd: error: *** STEP 66179.3 ON cn04 CANCELLED AT 2024-02-29T10:00:33 ***
+slurmstepd: error: *** JOB 66179 ON cn04 CANCELLED AT 2024-02-29T10:00:33 ***
+slurmstepd: error: *** STEP 66179.0 ON cn04 CANCELLED AT 2024-02-29T10:00:33 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 66179.1 ON cn04 CANCELLED AT 2024-02-29T10:00:33 ***
+slurmstepd: error: *** STEP 66179.4 ON cn04 CANCELLED AT 2024-02-29T10:00:33 ***

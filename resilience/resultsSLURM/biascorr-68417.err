@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./visualization/make_diurnal.py", line 75, in <module>
+    ds_rg=xr.open_mfdataset(item for list in ll_sphera for item in list).load()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1

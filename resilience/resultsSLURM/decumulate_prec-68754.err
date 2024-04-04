@@ -1,0 +1,597 @@
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '01' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '02' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '10' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '08' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '07' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '10' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '08' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '03' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '11' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '06' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '01' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '11' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '06' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '01' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '01' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '07' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '02' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '01' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '05' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '09' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '04' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '12' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '12' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '06' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '02' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '05' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '11' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '08' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '03' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '06' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '03' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '01' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '02' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '09' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+usage: new_sphera.py [-h] [-y YEAR [YEAR ...]] [-m {f,i,q}] [-ev {pr,mw}] [-p]
+                     [-c]
+new_sphera.py: error: argument -m/--month: invalid choice: '10' (choose from 'f', 'i', 'q')
+srun: error: cn04: task 0: Exited with exit code 2
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68754
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68754 step creation still disabled, retrying (Requested nodes are busy)
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+slurmstepd: error: *** STEP 68754.35 ON cn04 CANCELLED AT 2024-03-28T17:09:54 ***
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+slurmstepd: error: *** JOB 68754 ON cn04 CANCELLED AT 2024-03-28T17:09:54 ***
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed
+srun: error: Unable to create step for job 68754: Job/step already completing or completed

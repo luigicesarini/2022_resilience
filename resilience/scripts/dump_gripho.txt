@@ -1,0 +1,82 @@
+netcdf gripho_2005 {
+dimensions:
+	time = UNLIMITED ; // (8760 currently)
+	y = 402 ;
+	x = 353 ;
+variables:
+	double time(time) ;
+		time:_FillValue = NaN ;
+		time:standard_name = "time" ;
+		time:long_name = "Time" ;
+		time:axis = "T" ;
+		time:units = "Seconds since 1970-01-01T00:00:00+00:00" ;
+		time:calendar = "standard" ;
+	float lon(y, x) ;
+		lon:_FillValue = NaNf ;
+		lon:standard_name = "longitude" ;
+		lon:long_name = "Longitude" ;
+		lon:units = "degrees_east" ;
+		lon:_CoordinateAxisType = "Lon" ;
+	float lat(y, x) ;
+		lat:_FillValue = NaNf ;
+		lat:standard_name = "latitude" ;
+		lat:long_name = "Latitude" ;
+		lat:units = "degrees_north" ;
+		lat:_CoordinateAxisType = "Lat" ;
+	double x(x) ;
+		x:_FillValue = NaN ;
+		x:standard_name = "projection_x_coordinate" ;
+		x:long_name = "x-coordinate in Cartesian system" ;
+		x:units = "m" ;
+		x:axis = "X" ;
+	double y(y) ;
+		y:_FillValue = NaN ;
+		y:standard_name = "projection_y_coordinate" ;
+		y:long_name = "y-coordinate in Cartesian system" ;
+		y:units = "m" ;
+		y:axis = "Y" ;
+	int crs ;
+		crs:grid_mapping_name = "lambert_azimuthal_equal_area" ;
+		crs:crs = "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs" ;
+		crs:crs_format = "PROJ.4" ;
+		crs:_CoordinateTransformType = "Projection" ;
+		crs:_CoordinateAxisType = "GeoX GeoY" ;
+		crs:longitude_of_central_meridian = 10. ;
+		crs:latitude_of_projection_origin = 52. ;
+		crs:reference_ellipsoid_name = "GRS80" ;
+		crs:towgs84 = 0, 0, 0, 0, 0, 0, 0 ;
+		crs:false_easting = 4321000 ;
+		crs:false_northing = 3210000 ;
+	float pr(time, y, x) ;
+		pr:_FillValue = -9999.f ;
+		pr:standard_name = "precipitation_flux" ;
+		pr:long_name = "Precipitation" ;
+		pr:units = "mm h-1" ;
+		pr:grid_mapping = "crs" ;
+		pr:coordinates = "lat lon" ;
+		pr:missing_value = -9999.f ;
+
+// global attributes:
+		:CDI = "Climate Data Interface version 1.9.8 (https://mpimet.mpg.de/cdi)" ;
+		:Conventions = "CF-1.7" ;
+		:history = "Fri Mar 19 12:49:39 2021: cdo -L -z zip -sellonlatbox,6.342158,18.7,36.13304,47.15 gripho-v1_1h_TSmin30pct_2001-2016.nc gripho-v1_1h_TSmin30pct_2001-2016_cut.nc\nFri Mar 19 12:31:22 2021: cdo -s -C -O -z zip -f nc4 ifthen /home/clima-archive4-b/fdi_sant/GRIPHO/data/masked_3km_AQcleaning_missfix_LAEA/hourly/stats/pctl_valid_values_1h_gec30.nc /home/clima-archive4-b/fdi_sant/GRIPHO/data/masked_3km_AQcleaning_missfix_LAEA/hourly/gripho-v1_1h_2001-2016.nc /home/clima-archive4-b/fdi_sant/GRIPHO/data/masked_3km_AQcleaning_missfix_LAEA/hourly/gripho-v1_1h_TSmin30pct_2001-2016.nc\nFri Mar 19 12:31:22 2021: cdo -s -C -O gec,30 /home/clima-archive4-b/fdi_sant/GRIPHO/data/masked_3km_AQcleaning_missfix_LAEA/hourly/stats/pctl_valid_values_1h.nc /home/clima-archive4-b/fdi_sant/GRIPHO/data/masked_3km_AQcleaning_missfix_LAEA/hourly/stats/pctl_valid_values_1h_gec30.nc\nFri Mar 19 12:31:22 2021: cdo -s -C -O -L -z zip -f nc4 -mulc,100 -divc,140256 /home/clima-archive4-b/fdi_sant/GRIPHO/data/masked_3km_AQcleaning_missfix_LAEA/hourly/stats/n_hourly_values_1h.nc /home/clima-archive4-b/fdi_sant/GRIPHO/data/masked_3km_AQcleaning_missfix_LAEA/hourly/stats/pctl_valid_values_1h.nc\nFri Mar 19 12:20:52 2021: cdo -s -C -O -L -z zip -f nc4 timsum -setrtoc,-Inf,Inf,1 /home/clima-archive4-b/fdi_sant/GRIPHO/data/masked_3km_AQcleaning_missfix_LAEA/hourly/gripho-v1_1h_2001-2016.nc /home/clima-archive4-b/fdi_sant/GRIPHO/data/masked_3km_AQcleaning_missfix_LAEA/hourly/stats/n_hourly_values_1h.nc\nFri Mar 19 01:10:25 2021: cdo -z zip -f nc4 mergetime ../200101.nc ../200102.nc ../200103.nc ../200104.nc ../200105.nc ../200106.nc ../200107.nc ../200108.nc ../200109.nc ../200110.nc ../200111.nc ../200112.nc ../200201.nc ../200202.nc ../200203.nc ../200204.nc ../200205.nc ../200206.nc ../200207.nc ../200208.nc ../200209.nc ../200210.nc ../200211.nc ../200212.nc ../200301.nc ../200302.nc ../200303.nc ../200304.nc ../200305.nc ../200306.nc ../200307.nc ../200308.nc ../200309.nc ../200310.nc ../200311.nc ../200312.nc ../200401.nc ../200402.nc ../200403.nc ../200404.nc ../200405.nc ../200406.nc ../200407.nc ../200408.nc ../200409.nc ../200410.nc ../200411.nc ../200412.nc ../200501.nc ../200502.nc ../200503.nc ../200504.nc ../200505.nc ../200506.nc ../200507.nc ../200508.nc ../200509.nc ../200510.nc ../200511.nc ../200512.nc ../200601.nc ../200602.nc ../200603.nc ../200604.nc ../200605.nc ../200606.nc ../200607.nc ../200608.nc ../200609.nc ../200610.nc ../200611.nc ../200612.nc ../200701.nc ../200702.nc ../200703.nc ../200704.nc ../200705.nc ../200706.nc ../200707.nc ../200708.nc ../200709.nc ../200710.nc ../200711.nc ../200712.nc ../200801.nc ../200802.nc ../200803.nc ../200804.nc ../200805.nc ../200806.nc ../200807.nc ../200808.nc ../200809.nc ../200810.nc ../200811.nc ../200812.nc ../200901.nc ../200902.nc ../200903.nc ../200904.nc ../200905.nc ../200906.nc ../200907.nc ../200908.nc ../200909.nc ../200910.nc ../200911.nc ../200912.nc ../201001.nc ../201002.nc ../201003.nc ../201004.nc ../201005.nc ../201006.nc ../201007.nc ../201008.nc ../201009.nc ../201010.nc ../201011.nc ../201012.nc ../201101.nc ../201102.nc ../201103.nc ../201104.nc ../201105.nc ../201106.nc ../201107.nc ../201108.nc ../201109.nc ../201110.nc ../201111.nc ../201112.nc ../201201.nc ../201202.nc ../201203.nc ../201204.nc ../201205.nc ../201206.nc ../201207.nc ../201208.nc ../201209.nc ../201210.nc ../201211.nc ../201212.nc ../201301.nc ../201302.nc ../201303.nc ../201304.nc ../201305.nc ../201306.nc ../201307.nc ../201308.nc ../201309.nc ../201310.nc ../201311.nc ../201312.nc ../201401.nc ../201402.nc ../201403.nc ../201404.nc ../201405.nc ../201406.nc ../201407.nc ../201408.nc ../201409.nc ../201410.nc ../201411.nc ../201412.nc ../201501.nc ../201502.nc ../201503.nc ../201504.nc ../201505.nc ../201506.nc ../201507.nc ../201508.nc ../201509.nc ../201510.nc ../201511.nc ../201512.nc ../201601.nc ../201602.nc ../201603.nc ../201604.nc ../201605.nc ../201606.nc ../201607.nc ../201608.nc ../201609.nc ../201610.nc ../201611.nc ../201612.nc gripho-v1_1h_2001-2016.nc\nThu Mar 18 23:22:10 2021: cdo remapnn,grid_3KM_LAEA prpermask_mask.nc prpermask_mask_LAEA.nc\nThu Mar 18 23:12:09 2021: cdo -L -invertlat -gec,0 prpermask.nc prpermask_mask.nc\nThu Mar 18 22:52:47 2021: cdo -z zip timmean /home/clima-archive2-b/afantini/GRIPHO/after_clean/after_purge/hourly/highres/masked/mergetime/final/gripho_v1.0_2001-2016.nc prpermask.nc" ;
+		:source = "Precipitation data from in-situ stations over Italy" ;
+		:institution = "ICTP" ;
+		:crs = "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs" ;
+		:crs_format = "PROJ.4" ;
+		:grid_mapping_name = "lambert_azimuthal_equal_area" ;
+		:longitude_of_central_meridian = 10. ;
+		:latitude_of_projection_origin = 52. ;
+		:reference_ellipsoid_name = "GRS80" ;
+		:towgs84 = 0, 0, 0, 0, 0, 0, 0 ;
+		:false_easting = 4321000 ;
+		:false_northing = 3210000 ;
+		:grid_size_in_meters = 3000 ;
+		:projection = "LAEA" ;
+		:title = "GRIPHO - GRidded Italian Precipitation Hourly Observations" ;
+		:contact = "afantini@ictp.it" ;
+		:references = "Fantini et al. (2019, in publication)" ;
+		:version = "v1.0" ;
+		:years_available = "2001-2016" ;
+		:CDO = "Climate Data Operators version 1.9.8 (https://mpimet.mpg.de/cdo)" ;
+}

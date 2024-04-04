@@ -1,0 +1,7 @@
+set values = tp
+set quantile = 90
+set num_elements = number_of_elements(values)
+set sorted_values = sort(values)
+set index = int(quantile/100.0*num_elements)
+set quantile_value = sorted_values[index]
+print "90th percentile:", quantile_value

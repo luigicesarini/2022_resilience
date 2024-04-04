@@ -1,0 +1,735 @@
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./scripts/new_sphera.py", line 90, in <module>
+    ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1003, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+srun: error: cn04: task 0: Exited with exit code 1
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Step created for job 68755
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: launch/slurm: launch_p_step_launch: StepId=68755.33 aborted before step completely launched.
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 68755 step creation still disabled, retrying (Requested nodes are busy)
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Slurm job 68755 has expired
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: error: Unable to create step for job 68755: Job/step already completing or completed
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 68755
+srun: error: Slurm job 68755 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 68755
+srun: error: Slurm job 68755 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 68755
+srun: error: Slurm job 68755 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 68755
+srun: error: Slurm job 68755 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 68755
+srun: error: Slurm job 68755 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 68755
+srun: error: Slurm job 68755 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 68755
+srun: error: Slurm job 68755 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 68755
+srun: error: Slurm job 68755 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 68755
+srun: error: Slurm job 68755 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 68755
+slurmstepd: error: *** JOB 68755 ON cn04 CANCELLED AT 2024-03-28T17:11:28 ***
+slurmstepd: error: *** STEP 68755.33 ON cn04 CANCELLED AT 2024-03-28T17:11:28 ***
