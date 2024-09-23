@@ -52,7 +52,7 @@ YYYY_MM=f"{args.year}{args.month}"
 DEBUG=True
 if DEBUG:
     NAME_VAR='pr'
-    YYYY_MM="2005"
+    YYYY_MM="1995"
 print(YYYY_MM)
 """
 END PARSER
@@ -87,18 +87,20 @@ matching_files = []
 for pattern in patterns_original:
     matching_files.extend(glob(pattern))
 
+glob(f'/mnt/beegfs/lcesarini/SPHERA/original/{NAME_VAR}/*1995**remapped.grb2*')
 
 # list_yyyy_mm=[f'2005{m}' for m in ['01','02','03','04','05','06','07','08','09','10','11','12']]
 # for YYYY_MM in tqdm(list_yyyy_mm,total=len(list_yyyy_mm)):
 # ll_files=np.array(matching_files)[[('idx' not in xx) and ('2020' not in xx) for xx in matching_files]]
 ll_files=np.array(matching_files)[[((YYYY_MM in xx) or ("2004" in xx)) and ('idx' not in xx) and ('2020' not in xx) for xx in matching_files]]
+ll_files=np.array(matching_files)[[(YYYY_MM in xx) and ('idx' not in xx) and ('2020' not in xx) for xx in matching_files]]
 ll_files=np.array(matching_files)[[('idx' not in xx) and ('2020' not in xx) for xx in matching_files]]
 
 ds_ori=xr.open_mfdataset(ll_files,engine='cfgrib')
 
 
 
-ds_one_cell=ds_ori.isel(x=111,y=121).load()
+# ds_one_cell=ds_ori.isel(x=111,y=121).load()
 def remove_step(ds):
 
     ll_ds=[
@@ -190,37 +192,41 @@ def get_wethours(ds):
 
 # ds_dec_one_cell=remove_step(ds_one_cell)
 # 
-ds_dec_ori=remove_step(ds_ori)
+ds_dec_ori=remove_step(ds_ori.sel(time=ds_ori['time.year'].isin(2005)))
 
-ds_dec_ori2=decumulate_prec(ds_dec_ori)
+ds_dec_ori2=decumulate_prec(ds_dec_ori.drop_vars("surface"))
 
 ds_dec_wh=get_wethours(ds_dec_ori2)
 
-ds_q_remapped=get_q_by_h(ds_dec_ori2)
+(~np.isnan(ds_dec_wh.values)).sum(axis=0).mean()
+
+# ds_q_remapped=get_q_by_h(ds_dec_ori2)
 
 x_q1=ds_dec_ori2.groupby(ds_dec_ori2["time.hour"]).quantile(q=0.9)
 x_q=ds_dec_wh.groupby(ds_dec_wh["time.hour"]).quantile(q=0.9)
 
 x_m=ds_dec_wh.groupby(ds_dec_wh["time.hour"]).mean()
 
-if "longitude" in ds_dec_ori2.coords:
-    x2=x.mean(dim=["longitude","latitude"])
-else:
-    x2=x.mean(dim=["x","y"])
+# if "longitude" in ds_dec_ori2.coords:
+#     x2=x.mean(dim=["longitude","latitude"])
+# else:
+#     x2=x.mean(dim=["x","y"])
 
-fig,ax=plt.subplots(1,2,figsize=(12,6))
+fig,ax=plt.subplots(1,3,figsize=(14,6))
 x_q.mean(dim=["x","y"]).plot(marker='*',label='quantile WH',ax=ax[0],color='red')
-x_q1.mean(dim=["x","y"]).plot(marker='*',label='quantile',ax=ax[0],color='red')
-x_m.mean(dim=["x","y"]).plot(marker='+',label='mean',ax=ax[1],color='blue')
-ax[0].set_title(f"Diurnal cycle of quantile of wethours")
-ax[1].set_title(f"Diurnal cycle of mean of wet hours")
-ax[0].set_ylabel(f"Rainfall [mm]")
-ax[1].set_ylabel(f"Rainfall [mm]")
-ax[0].set_xlabel(f"Hour of the day")
-ax[1].set_xlabel(f"Hour of the day")
+x_q1.mean(dim=["x","y"]).plot(marker='*',label='quantile',ax=ax[1],color='green')
+x_m.mean(dim=["x","y"]).plot(marker='+',label='mean',ax=ax[2],color='blue')
+ax[0].set_title(f"Diurnal cycle of quantile of wet hours")
+ax[1].set_title(f"Diurnal cycle of quantile")
+ax[2].set_title(f"Diurnal cycle of mean of wet hours")
+[ax[_].set_ylabel(f"Rainfall [mm]") for _ in np.arange(ax.shape[0])]
+[ax[_].set_ylabel(f"Hour of the day") for _ in np.arange(ax.shape[0])]
+[ax[_].legend() for _ in np.arange(ax.shape[0])]
 ax[0].grid(color='r', linestyle='dotted')
-ax[1].grid(color='b', linestyle='dotted')
-plt.legend()
+ax[1].grid(color='g', linestyle='dotted')
+ax[2].grid(color='b', linestyle='dotted')
+# ax[1].set_ylim((0,2.5))
+fig.tight_layout()
 plt.savefig("fucking_hell2.png")
 plt.close()
 
@@ -243,15 +249,16 @@ plt.close()
 
 
 
-reshaped_array=x.values.reshape(24,-1)
+reshaped_array=x_q.values.reshape(24,-1)
+reshaped_array=x_q1.values.reshape(24,-1)
 
 reshaped_array2=np.concatenate([reshaped_array[1:,:],reshaped_array[0,:].reshape(1,55640)])
 
 
-plt.plot(reshaped_array[:,np.random.choice(np.arange(55000),size=(1500),replace=False)],c='grey',alpha=0.2)
+plt.plot(reshaped_array[:,np.random.choice(np.arange(55000),size=(500),replace=False)],c='grey',alpha=0.2)
 # plt.plot(np.mean(reshaped_array2,axis=1),marker='*',c='red',markersize=8)
 plt.plot(np.mean(reshaped_array,axis=1),marker='*',c='blue',markersize=8)
-plt.savefig("fucking_hell2.png")
+plt.savefig("fucking_hell3.png")
 plt.close()
 
 

@@ -13,7 +13,7 @@ from cartopy import feature as cfeature
 import warnings
 warnings.filterwarnings('ignore')
 
-os.chdir("/mnt/beegfs/lcesarini//2022_resilience/")
+os.chdir("/mnt/beegfs/lcesarini/2022_resilience/")
 mask=xr.open_dataset("data/mask_stations_nan_common.nc")
 
 def get_observed(name_station:str="AA_0220"):

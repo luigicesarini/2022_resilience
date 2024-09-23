@@ -8,41 +8,41 @@ The purpose of this readme is to depict the status of the repositry, as well as 
 ### Data    
 
 *Remapping*  
-It is currently done for 5 CPM models (CNRM,ETH,HCLIMcom,ICTP,MOHC)
-Problems with:
-- KIT: problem with corner coordinates
-- KNMI: original files seems to be HCLIMcom and not KNMI
-- CMCC: problem with missing coordinates
+Done for 8 CPM models (CNRM,ETH,HCLIMcom,ICTP,MOHC,KIT,KNMI,CMCC), precipitation and wind module.
+For:
+- Historical
+- Evaluation
+- Rcp 2.6, 8.5
+
+And for evaluation also done for some WRF model
+
+*Bias Correction*
+
+Done for 8 CPM models (CNRM,ETH,HCLIMcom,ICTP,MOHC,KIT,KNMI,CMCC)
+For:
+- Historical
+- Evaluation
+- Rcp 2.6, 8.5
+
+For precipitation with the exception of Evaluation also done for wind module.
+
+
+
+
 
 *Data Collection*
 
 > Reanalysis
 - CMCC VHR-REA 2.2km (precipitation done for triveneto). Problem wth size of files for entire north Italy
 - SPHERA 0.2°(Currently getting them from INES)
-- COSMO-REA2: all grib files for TP,u,v,T°,Gusts form 2007-2018. Missing 3 days specified in the email
+- COSMO-REA2: all grib files for TP,u,v,T°,Gusts form 2007-2018. Missing 3 days specified in the email. Very hard projection systme. I cant get out of it.
 
 > Projection
 
 
-## To Do 03/02/2023
 
-*Data Collection*
-
-> Reanalysis
-- CMCC VHR-REA: Download other files
-- COSMO-REA2: regrid the grib files to common grid
-> Projection
-- CMCC: Download data from dds
-- CORDEX: Download  RCP4.5
-
-
-## Ideas
-
-Using generative adversiaral net (GAN) to create credible and reliable climate model realizations
-
-
-> **21/04/2023**
-
+> **23/09/2024**
+Times are a little dated, might have variation
 # **Time needed to run code**
 
 ## Bias correct the data for QDM,EQM

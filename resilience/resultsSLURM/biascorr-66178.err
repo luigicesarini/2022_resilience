@@ -1,10 +1,0 @@
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** JOB 66178 ON cn04 CANCELLED AT 2024-02-29T09:59:52 ***
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-  0%|          | 0/4 [00:00<?, ?it/s]slurmstepd: error: *** STEP 66178.0 ON cn04 CANCELLED AT 2024-02-29T09:59:52 ***
-  0%|          | 0/4 [00:00<?, ?it/s]slurmstepd: error: *** STEP 66178.2 ON cn04 CANCELLED AT 2024-02-29T09:59:52 ***
-  0%|          | 0/4 [00:00<?, ?it/s]slurmstepd: error: *** STEP 66178.1 ON cn04 CANCELLED AT 2024-02-29T09:59:52 ***
-  0%|          | 0/4 [00:00<?, ?it/s]slurmstepd: error: *** STEP 66178.4 ON cn04 CANCELLED AT 2024-02-29T09:59:52 ***

@@ -1,52 +1,0 @@
-Traceback (most recent call last):
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/file_manager.py", line 210, in _acquire_with_cache_info
-    file = self._cache[self._key]
-           ~~~~~~~~~~~^^^^^^^^^^^
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
-    value = self._cache[key]
-            ~~~~~~~~~~~^^^^^
-KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/mnt/beegfs/lcesarini/DATA_FPS/ECMWF-ERAINT/CNRM/CPM/mw/mw_CNRM_ECMWF-ERAINT_200001010030-200012312330.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'e5b83fca-03e9-4463-bb78-a23b1a38a99d']
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_wind.py", line 151, in <module>
-    mod_train=xr.open_mfdataset([item for list in list_mod_train for item in list]).load()
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1038, in open_mfdataset
-    datasets = [open_(p, **open_kwargs) for p in paths]
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 1038, in <listcomp>
-    datasets = [open_(p, **open_kwargs) for p in paths]
-                ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/api.py", line 566, in open_dataset
-    backend_ds = backend.open_dataset(
-                 ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/netCDF4_.py", line 588, in open_dataset
-    store = NetCDF4DataStore.open(
-            ^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/netCDF4_.py", line 389, in open
-    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/netCDF4_.py", line 336, in __init__
-    self.format = self.ds.data_model
-                  ^^^^^^^
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/netCDF4_.py", line 398, in ds
-    return self._acquire()
-           ^^^^^^^^^^^^^^^
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/netCDF4_.py", line 392, in _acquire
-    with self._manager.acquire_context(needs_lock) as root:
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/contextlib.py", line 137, in __enter__
-    return next(self.gen)
-           ^^^^^^^^^^^^^^
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/file_manager.py", line 198, in acquire_context
-    file, cached = self._acquire_with_cache_info(needs_lock)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/backends/file_manager.py", line 216, in _acquire_with_cache_info
-    file = self._opener(*self._args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "src/netCDF4/_netCDF4.pyx", line 2449, in netCDF4._netCDF4.Dataset.__init__
-  File "src/netCDF4/_netCDF4.pyx", line 2012, in netCDF4._netCDF4._ensure_nc_success
-OSError: [Errno -101] NetCDF: HDF error: '/mnt/beegfs/lcesarini/DATA_FPS/ECMWF-ERAINT/CNRM/CPM/mw/mw_CNRM_ECMWF-ERAINT_200001010030-200012312330.nc'
-srun: error: cn04: task 0: Exited with exit code 1
-  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [1:50:12<5:30:36, 6612.15s/it] 50%|█████     | 2/4 [3:39:49<3:39:43, 6591.88s/it] 75%|███████▌  | 3/4 [5:28:48<1:49:27, 6567.35s/it]100%|██████████| 4/4 [7:19:47<00:00, 6603.92s/it]  100%|██████████| 4/4 [7:19:47<00:00, 6597.00s/it]

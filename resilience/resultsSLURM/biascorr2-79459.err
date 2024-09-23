@@ -1,0 +1,208 @@
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+srun: error: cn02: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+srun: error: cn02: task 0: Exited with exit code 1
+srun: error: cn02: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+srun: error: cn02: task 0: Exited with exit code 1
+srun: error: cn02: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+srun: error: cn02: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+srun: error: cn02: task 0: Exited with exit code 1
+srun: error: cn02: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+srun: error: cn02: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+ValueError: These variables cannot be found in this dataset: ['surface']
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 194, in <module>
+    extrapolation="constant", interp="nearest").drop_vars(['surface'])
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataarray.py", line 3017, in drop_vars
+    ds = self._to_temp_dataset().drop_vars(names, errors=errors)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5157, in drop_vars
+    self._assert_all_in_dataset(names)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 5125, in _assert_all_in_dataset
+    raise ValueError(
+ValueError: These variables cannot be found in this dataset: ['surface']
+srun: error: cn02: task 0: Exited with exit code 1
+srun: error: cn02: task 0: Exited with exit code 1
+srun: error: cn02: task 0: Exited with exit code 1
+srun: error: cn02: task 0: Exited with exit code 1
+srun: error: cn02: task 0: Exited with exit code 1
+srun: error: cn02: task 0: Exited with exit code 1
+srun: error: cn02: task 0: Exited with exit code 1

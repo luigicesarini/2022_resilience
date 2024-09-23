@@ -1,0 +1,234 @@
+Traceback (most recent call last):
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/./bias/bias_corr_future.py", line 148, in <module>
+    mod_train,mod_adjust=get_model_data(mdl,yrs_train_mod,list_mod_train,list_mod_adjust)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/beegfs/lcesarini/2022_resilience/resilience/bias/utils.py", line 107, in get_model_data
+    mod_train=xr.open_mfdataset([item for list in list_train for item in list]).load()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/dataset.py", line 781, in load
+    evaluated_data = chunkmanager.compute(*lazy_data.values(), **kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/daskmanager.py", line 70, in compute
+    return compute(*data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/dask/base.py", line 595, in compute
+    results = schedule(dsk, keys, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/dask/threaded.py", line 89, in get
+    results = get_async(
+              ^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/dask/local.py", line 511, in get_async
+    raise_exception(exc, tb)
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/dask/local.py", line 319, in reraise
+    raise exc
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/dask/local.py", line 224, in execute_task
+    result = _execute_task(task, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/dask/core.py", line 121, in _execute_task
+    return func(*(_execute_task(a, cache) for a in args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/dask/array/core.py", line 126, in getter
+    c = np.asarray(c)
+        ^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/indexing.py", line 484, in __array__
+    return np.asarray(self.get_duck_array(), dtype=dtype)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/indexing.py", line 487, in get_duck_array
+    return self.array.get_duck_array()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/indexing.py", line 664, in get_duck_array
+    return self.array.get_duck_array()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/core/indexing.py", line 557, in get_duck_array
+    array = array.get_duck_array()
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/coding/variables.py", line 74, in get_duck_array
+    return self.func(self.array.get_duck_array())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luigi.cesarini/.conda/envs/my_xclim_env/lib/python3.11/site-packages/xarray/coding/variables.py", line 215, in _apply_mask
+    return np.where(condition, decoded_fill_value, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<__array_function__ internals>", line 200, in where
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 118. MiB for an array with shape (720, 158, 272) and data type float32
+srun: error: Node failure on cn02
+srun: error: Node failure on cn02
+srun: error: Node failure on cn02
+srun: error: Node failure on cn02
+srun: error: Node failure on cn02
+srun: error: Node failure on cn02
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:36 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:50736] auth_g_verify: SRUN_NODE_FAIL has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:50736] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:50736]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: error: Munge decode failed: Expired credential
+srun: error: Munge decode failed: Expired credential
+srun: error: Munge decode failed: Expired credential
+srun: error: Munge decode failed: Expired credential
+srun: error: Munge decode failed: Expired credential
+srun: error: Munge decode failed: Expired credential
+srun: error: Munge decode failed: Expired credential
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:33084] auth_g_verify: SRUN_NODE_FAIL has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:48522] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:33084] Protocol authentication error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:48522] Protocol authentication error
+srun: error: Munge decode failed: Expired credential
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:48522]: Unspecified error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:33084]: Unspecified error
+srun: error: eio_handle_mainloop: Abandoning IO 60 secs after job shutdown initiated
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:50738] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:50738] Protocol authentication error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:33086] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:33086] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:33086]: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:46892] auth_g_verify: SRUN_NODE_FAIL has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:46892] Protocol authentication error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:48060] auth_g_verify: SRUN_NODE_FAIL has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:48060] Protocol authentication error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:56438] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:56438] Protocol authentication error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:49832] auth_g_verify: SRUN_NODE_FAIL has authentication error: Unspecified error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:46892]: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:49832] Protocol authentication error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:54682] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:54682] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:48060]: Unspecified error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:56438]: Unspecified error
+srun: error: eio_handle_mainloop: Abandoning IO 60 secs after job shutdown initiated
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:49832]: Unspecified error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:54682]: Unspecified error
+srun: error: eio_handle_mainloop: Abandoning IO 60 secs after job shutdown initiated
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:59658] auth_g_verify: SRUN_NODE_FAIL has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:59658] Protocol authentication error
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:49834] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:48062] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:49834] Protocol authentication error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:48062] Protocol authentication error
+srun: error: Munge decode failed: Expired credential
+srun: error: Munge decode failed: Expired credential
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:49834]: Unspecified error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:48062]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:46894] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:46894] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:46894]: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:35034] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:35034] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:35034]: Unspecified error
+srun: error: eio_handle_mainloop: Abandoning IO 60 secs after job shutdown initiated
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:50738]: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:34574] auth_g_verify: SRUN_NODE_FAIL has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:34574] Protocol authentication error
+/var/spool/slurmd/job79466/slurm_script: xrealloc: cannot allocate 524288 bytes
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:59658]: Unspecified error
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:47 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:47808] auth_g_verify: SRUN_NODE_FAIL has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:47808] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:34574]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:47 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:34576] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:34576] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:47808]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:47 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:47810] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:47810] Protocol authentication error
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:46 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:53998] auth_g_verify: SRUN_NODE_FAIL has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:53998] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:34576]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:47810]: Unspecified error
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:47 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:59660] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:59660] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:53998]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:47 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:54000] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:54000] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:59660]: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:35766] auth_g_verify: SRUN_NODE_FAIL has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:35766] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:54000]: Unspecified error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:35766]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:47 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:35768] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:35768] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:35768]: Unspecified error
+slurmstepd: fatal: step_terminate_monitor_start: pthread_create error Resource temporarily unavailable
+srun: error: Munge decode failed: Expired credential
+srun: auth/munge: _print_cred: ENCODED: Sun Sep 08 18:50:27 2024
+srun: auth/munge: _print_cred: DECODED: Sun Sep 08 18:57:47 2024
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:60722] auth_g_verify: SRUN_JOB_COMPLETE has authentication error: Unspecified error
+srun: error: slurm_unpack_received_msg: [[hpc-manager]:60722] Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[172.16.137.253:60722]: Unspecified error
+srun: error: eio_handle_mainloop: Abandoning IO 60 secs after job shutdown initiated
+srun: error: cn02: task 0: Exited with exit code 1
+srun: error: cn02: task 0: Killed
+srun: Force Terminated StepId=79466.6
+srun: error: cn02: task 0: Killed
+srun: Force Terminated StepId=79466.14
+srun: error: cn02: task 0: Killed
+srun: Force Terminated StepId=79466.9
+srun: error: cn02: task 0: Killed
+srun: Force Terminated StepId=79466.7
+srun: error: cn02: task 0: Killed
+srun: Force Terminated StepId=79466.4
+srun: error: cn02: task 0: Killed
+srun: Force Terminated StepId=79466.15
+srun: error: cn02: task 0: Killed
+srun: Force Terminated StepId=79466.13
+srun: error: cn02: task 0: Killed
+srun: Force Terminated StepId=79466.12
+srun: error: cn02: task 0: Killed
+srun: Force Terminated StepId=79466.8
